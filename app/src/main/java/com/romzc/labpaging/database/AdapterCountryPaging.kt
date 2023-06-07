@@ -41,7 +41,7 @@ class AdapterCountryPaging: PagingDataAdapter<CountryEntity, AdapterCountryPagin
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CountryItem {
-        return CountryItem(LayoutInflater.from(parent.context).inflate(R.layout.user_item, parent,false))
+        return CountryItem(LayoutInflater.from(parent.context).inflate(R.layout.country_item, parent,false))
     }
 
 }
